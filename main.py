@@ -1,4 +1,4 @@
-rom os import system as sy
+from os import system as sy
 try:
     from fake_email import Email
 except ModuleNotFoundError:
